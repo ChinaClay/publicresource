@@ -15,7 +15,7 @@ jobs:
 
       - name: Download APK via curl
         run: |
-          curl -L -o "Vehicle/apks/BaiduMapForAuto_AndroidPhone_22-1-3-1_x640001.apk"
+          curl -L -o "https://72cb091351da5fb1-db6cf78fe09e08de.jomoxc.com:9082/fs7ce6ceac.a.bdydns.com/4120666714/BaiduMapForAuto/AndroidPhone/22.1.3.1/1/x640001/20261111195012/BaiduMapForAuto_AndroidPhone_22-1-3-1_x640001.apk?request_id=1794460509_7874226338&xcresfp=a61022ad7177fd838effb80048accf2c&xauzkey=mngx_245b73c7aacf66cd2ffeac51bbd75ba8_1794546910&type=static&r=WEEuRCdCbGccPBYqJElIbVJUM1AhViAnFXwjJSxdTQ5RRRxbJjk2PBd8ICohS1cqVGUyWzodbHpKfVBqdhcJbAEaIgJgSHN4SXxTdHcPCXIBBGsNYUhyelcRAC0hTHUiQHM1RhUNNycnEg8gN1ZRJ2BdNVoxJ3F6VWJMd2gIZzsGAWoEZEltKQg4Xi02ZkAgVFtnBXIKJjkNNhIwGlBcfgECYwBgTnN9SGo%2Bc30ODHECA2kHbF4xLQsjDio2XHssXkE%2FWiA8KjsIPBItMVBXLQ1ULkA1GyslHT0VYXZ7XipcUDRVOR1mezx2U3YHWFEnRXg7RBIXMQkNJw4bBFdcMV9cPmQ8Fy0tJytXcHUJCHIeVCpfcUpxbgo2EjQqV0smc1o0QDEWNxwBIwR5JElIL1lWO0A9Fy1tShUXKiEXWS1URzVdMFYzKRs4ACMgFFkxU10zQjFeNzEINlw3MVhMKlNfRT9aNxwteRcjBComXVZy&is_xcdn=1&xcid=3542ab8939fa4f54a2707deebcb46970&xcsched=1745491830&xclogid=8301164191923768259&responseContentDisposition=attachment%3Bfilename%3D%22BaiduMapForAuto_AndroidPhone_x640001.apk%22&responseContentType=application%2Fvnd.android.package-archive&xcext=1551523038&f_ver=v1&http_clientip=49.67.104.222&sent_http_content-type=application%2Fvnd.android.package-archive&sent_http_access-control-allow-origin=null&sent_http_access-control-allow-methods=GET&sent_http_content-disposition=attachment%3Bfilename%3D%22BaiduMapForAuto_AndroidPhone_x640001.apk%22"
           date >> Vehicle/apks/.log
           echo "[OK]" >> Vehicle/apks/.log
 
