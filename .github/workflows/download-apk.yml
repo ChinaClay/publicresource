@@ -17,7 +17,7 @@ jobs:
         run: |
           curl -L -o "Vehicle/apks/BaiduMapForAuto_AndroidPhone_22-1-3-1_x640001.apk"
           date >> Vehicle/apks/.log
-          [OK] >> Vehicle/apks/.log
+          echo "[OK]" >> Vehicle/apks/.log
 
       - name: Commit and push
         run: |
